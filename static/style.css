@@ -1,0 +1,88 @@
+header {
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  color:rgb(255, 255, 255);
+  margin: 10px;
+  width: auto;
+}
+
+body {
+background-color: rgb(24, 34, 69);
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+  /* Add a black background color to the top navigation */
+  .topnav {
+      background-color: rgb(24, 34, 69);
+      overflow: hidden;
+    }
+    
+    /* Add a color to the active/current link */
+    .topnav a.active {
+      background-color: rgb(255, 255, 255);
+      color: black;
+    }
+
+
+    #submit {
+      background-color: white;
+      color: black;
+      border-radius: 20px;
+    }
+
+
+
+    #submit:hover {
+      background-color: grey;
+      color: white;
+      transform: scale(1.1);
+    }
+
+
+
+    #name {
+      border-radius: 40px;
+      border-color: grey;
+      
+    }
+    
+    
+    #schema a {        
+      position: absolute;
+      left: 650px;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 10px 10px;
+      text-decoration: no;
+      font-size: 10px;
+      border-radius: 25px;
+    }
+
+    img {
+      width: 45px;
+   }
+
+    #schema a:hover {
+      background-color: white;
+      color: black;
+    }
+
+    #sl a {        
+      position: absolute;
+      right: 650px;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 10px;
+      text-decoration: no;
+      font-size: 10px;
+      border-radius: 25px;
+    }
+
+    #sl a:hover {
+      background-color: white;
+      color: black;
+    } 

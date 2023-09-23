@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="swe">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkolSL</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  
+  <header></span><strong><strong>Vällkommen till SkolSL</strong></strong></header>
+
+    <div class="topnav">
+       <div id="schema"><a class="active" href="#Schema"><img src="/static/schemabild.png"></a></div>
+        <div id="sl"><a href="/sl"><img src="/static/sl-icon.png"></a></div>
+      </div>
+      <form action = "http://localhost:5000/uppdatera" method = "post">
+        <p><input id="name" type = "text" name = "nm"  placeholder="Klass eller personnummer"/></p>
+        <p><input id = "submit" type = "submit" value = "Hämta" /></p>
+     </form>   
+      <br />
+      <br />
+      <br />
+      <br />
+
+    
+   {{output}}
+
+
+
+
+
+
+
+</body>
+</html>

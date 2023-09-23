@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="swe">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkolSL</title>
+    <link rel="stylesheet" href="/static/stylesl.css">
+    <meta http-equiv="refresh" content="60">
+</head>
+<body>
+
+    <header></span><strong><strong>Vällkommen till SkolSL</strong></strong></header>
+    
+    <div class="topnav">
+       <div id="schema"><a href="/"><img src="/static/schemabild.png"></a></div>
+        <div id="sl"><a class="active" href="#sl"><img src="/static/sl-icon.png"></a></div>
+      </div>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+    
+      
+      {% for t in SLbuss %}
+      <div class="SL RoundedCornerMain"> 
+          {{t}}
+      </div>
+  {% endfor %}
+
+  {% for h in SLpendel %}
+      <div class="SL RoundedCornerMain"> 
+          {{h}}
+      </div>
+  {% endfor %}
+
+
+</body>
+</html>
